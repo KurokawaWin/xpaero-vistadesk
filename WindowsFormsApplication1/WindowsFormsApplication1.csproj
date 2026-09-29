@@ -8,8 +8,8 @@
     <ProjectGuid>{062C6747-20A1-4EDC-AD90-EDA8A4A82DBF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>desk</RootNamespace>
-    <AssemblyName>desk</AssemblyName>
+    <RootNamespace>themecpl</RootNamespace>
+    <AssemblyName>themecpl</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

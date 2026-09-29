@@ -9,7 +9,7 @@ using System.Diagnostics;
 using System.Drawing.Drawing2D;
 
 
-namespace desk
+namespace themecpl
 {
     public partial class Form1 : Form
     {
@@ -110,7 +110,7 @@ namespace desk
 
         private void linkLabel9_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("control", "cttune.cpl");
+            Process.Start("cttune.exe");
         }
 
         private void linkLabel8_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -131,6 +131,16 @@ namespace desk
         private void linkLabel11_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("rundll32.exe", "shell32.dll,Options_RunDLL");
+        }
+
+        private void linkLabel12_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("sidebar.exe", " /showGadgets");
+        }
+
+        private void linkLabel16_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("nusrmgr.cpl", " ,initialTask=ChangePicture");
         }
 
     }
