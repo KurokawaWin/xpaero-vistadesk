@@ -40,42 +40,42 @@ namespace desk
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("control", "desk.cpl,,2");
+            Process.Start("control", "vesk.cpl,,2");
         }
 
         private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("control", "desk.cpl,,@themes");
+            Process.Start("control", "vesk.cpl,,@themes");
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            Process.Start("control", "desk.cpl,,@themes");
+            Process.Start("control", "vesk.cpl,,@themes");
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("control", "desk.cpl,,@desktop");
+            Process.Start("control", "vesk.cpl,,@desktop");
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Process.Start("control", "desk.cpl,,@desktop");
+            Process.Start("control", "vesk.cpl,,@desktop");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Process.Start("control", "desk.cpl,,2");
+            Process.Start("control", "vesk.cpl,,2");
         }
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("control", "desk.cpl,,1");
+            Process.Start("control", "vesk.cpl,,1");
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Process.Start("control", "desk.cpl,,1");
+            Process.Start("control", "vesk.cpl,,1");
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -100,12 +100,12 @@ namespace desk
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Process.Start("control", "desk.cpl,,3");
+            Process.Start("control", "vesk.cpl,,3");
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("control", "desk.cpl,,3");
+            Process.Start("control", "vesk.cpl,,3");
         }
 
         private void linkLabel9_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

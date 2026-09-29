@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.linkLabel11 = new System.Windows.Forms.LinkLabel();
             this.linkLabel10 = new System.Windows.Forms.LinkLabel();
             this.linkLabel8 = new System.Windows.Forms.LinkLabel();
             this.label10 = new System.Windows.Forms.Label();
@@ -73,7 +72,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.linkLabel11);
             this.panel1.Controls.Add(this.linkLabel10);
             this.panel1.Controls.Add(this.linkLabel8);
             this.panel1.Controls.Add(this.label10);
@@ -83,22 +81,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 513);
-            this.panel1.TabIndex = 2;
-            // 
-            // linkLabel11
-            // 
-            this.linkLabel11.ActiveLinkColor = System.Drawing.Color.White;
-            this.linkLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel11.ForeColor = System.Drawing.Color.White;
-            this.linkLabel11.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.linkLabel11.LinkColor = System.Drawing.Color.White;
-            this.linkLabel11.Location = new System.Drawing.Point(25, 481);
-            this.linkLabel11.Name = "linkLabel11";
-            this.linkLabel11.Size = new System.Drawing.Size(151, 23);
-            this.linkLabel11.TabIndex = 5;
-            this.linkLabel11.TabStop = true;
-            this.linkLabel11.Text = "Folder Options";
-            this.linkLabel11.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel11_LinkClicked);
+            this.panel1.TabIndex = 0;
             // 
             // linkLabel10
             // 
@@ -107,10 +90,10 @@
             this.linkLabel10.ForeColor = System.Drawing.Color.White;
             this.linkLabel10.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel10.LinkColor = System.Drawing.Color.White;
-            this.linkLabel10.Location = new System.Drawing.Point(25, 456);
+            this.linkLabel10.Location = new System.Drawing.Point(25, 481);
             this.linkLabel10.Name = "linkLabel10";
             this.linkLabel10.Size = new System.Drawing.Size(137, 15);
-            this.linkLabel10.TabIndex = 4;
+            this.linkLabel10.TabIndex = 3;
             this.linkLabel10.TabStop = true;
             this.linkLabel10.Text = "Ease of Access";
             this.linkLabel10.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel10_LinkClicked);
@@ -122,10 +105,10 @@
             this.linkLabel8.ForeColor = System.Drawing.Color.White;
             this.linkLabel8.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel8.LinkColor = System.Drawing.Color.White;
-            this.linkLabel8.Location = new System.Drawing.Point(25, 431);
+            this.linkLabel8.Location = new System.Drawing.Point(25, 456);
             this.linkLabel8.Name = "linkLabel8";
             this.linkLabel8.Size = new System.Drawing.Size(137, 15);
-            this.linkLabel8.TabIndex = 4;
+            this.linkLabel8.TabIndex = 2;
             this.linkLabel8.TabStop = true;
             this.linkLabel8.Text = "Taskbar and Start Menu";
             this.linkLabel8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel8_LinkClicked_1);
@@ -136,10 +119,10 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(25, 406);
+            this.label10.Location = new System.Drawing.Point(25, 431);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(52, 15);
-            this.label10.TabIndex = 3;
+            this.label10.TabIndex = 0;
             this.label10.Text = "See also";
             // 
             // linkLabel9
@@ -151,10 +134,10 @@
             this.linkLabel9.LinkColor = System.Drawing.Color.White;
             this.linkLabel9.Location = new System.Drawing.Point(25, 40);
             this.linkLabel9.Name = "linkLabel9";
-            this.linkLabel9.Size = new System.Drawing.Size(137, 33);
-            this.linkLabel9.TabIndex = 2;
+            this.linkLabel9.Size = new System.Drawing.Size(156, 29);
+            this.linkLabel9.TabIndex = 1;
             this.linkLabel9.TabStop = true;
-            this.linkLabel9.Text = "Change ClearType Tuning Settings";
+            this.linkLabel9.Text = "Adjust ClearType settings";
             this.linkLabel9.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel9_LinkClicked);
             // 
             // label9
@@ -166,7 +149,7 @@
             this.label9.Location = new System.Drawing.Point(25, 15);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(37, 15);
-            this.label9.TabIndex = 1;
+            this.label9.TabIndex = 0;
             this.label9.Text = "Tasks";
             // 
             // label2
@@ -189,7 +172,7 @@
             this.linkLabel2.Location = new System.Drawing.Point(54, 54);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(172, 15);
-            this.linkLabel2.TabIndex = 6;
+            this.linkLabel2.TabIndex = 4;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "&Window Color and Appearance";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
@@ -199,7 +182,7 @@
             this.label3.Location = new System.Drawing.Point(54, 74);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(430, 15);
-            this.label3.TabIndex = 7;
+            this.label3.TabIndex = 0;
             this.label3.Text = "Fine tune the color and style of your windows.";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -212,7 +195,7 @@
             this.linkLabel3.Location = new System.Drawing.Point(54, 103);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(171, 15);
-            this.linkLabel3.TabIndex = 9;
+            this.linkLabel3.TabIndex = 5;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Des&ktop Background and Icons";
             this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
@@ -222,7 +205,7 @@
             this.label4.Location = new System.Drawing.Point(54, 123);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(451, 30);
-            this.label4.TabIndex = 10;
+            this.label4.TabIndex = 0;
             this.label4.Text = "Choose from available backgrounds or colors or use one of your own pictures to de" +
                 "corate the desktop. You can change the appearance of the icons or disable them.";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -260,7 +243,7 @@
             this.panel2.Location = new System.Drawing.Point(200, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(536, 513);
-            this.panel2.TabIndex = 5;
+            this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label1
@@ -268,7 +251,7 @@
             this.label1.Location = new System.Drawing.Point(54, 457);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(451, 34);
-            this.label1.TabIndex = 10;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Adjust your monitor resolution, which changes the view so more or fewer items fit" +
                 " on the screen. You can also control monitor flicker (refresh rate).";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -279,7 +262,7 @@
             this.label8.Location = new System.Drawing.Point(54, 382);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(451, 49);
-            this.label8.TabIndex = 10;
+            this.label8.TabIndex = 0;
             this.label8.Text = resources.GetString("label8.Text");
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label8.Click += new System.EventHandler(this.label4_Click);
@@ -293,7 +276,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(54, 439);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(90, 15);
-            this.linkLabel1.TabIndex = 9;
+            this.linkLabel1.TabIndex = 10;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Displa&y Settings";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
@@ -303,7 +286,7 @@
             this.label7.Location = new System.Drawing.Point(54, 318);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(451, 36);
-            this.label7.TabIndex = 10;
+            this.label7.TabIndex = 0;
             this.label7.Text = "Pick a different mouse pointer. You can also change how the mouse pointer looks d" +
                 "uring such activities as clicking and selecting.";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -328,7 +311,7 @@
             this.label6.Location = new System.Drawing.Point(54, 255);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(451, 36);
-            this.label6.TabIndex = 10;
+            this.label6.TabIndex = 0;
             this.label6.Text = "Change which sounds are heard when you do everything from getting e-mail to empty" +
                 "ing your Recycle Bin.";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -343,7 +326,7 @@
             this.linkLabel6.Location = new System.Drawing.Point(54, 300);
             this.linkLabel6.Name = "linkLabel6";
             this.linkLabel6.Size = new System.Drawing.Size(89, 15);
-            this.linkLabel6.TabIndex = 9;
+            this.linkLabel6.TabIndex = 8;
             this.linkLabel6.TabStop = true;
             this.linkLabel6.Text = "Mouse Po&inters";
             this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
@@ -353,7 +336,7 @@
             this.label5.Location = new System.Drawing.Point(54, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(451, 48);
-            this.label5.TabIndex = 10;
+            this.label5.TabIndex = 0;
             this.label5.Text = "Change your screen saver or adjust when it displays. A screen saver is a picture " +
                 "or animation that covers your screen and appears when your computer is idle for " +
                 "a set period of time.";
@@ -380,7 +363,7 @@
             this.linkLabel5.Location = new System.Drawing.Point(54, 237);
             this.linkLabel5.Name = "linkLabel5";
             this.linkLabel5.Size = new System.Drawing.Size(46, 15);
-            this.linkLabel5.TabIndex = 9;
+            this.linkLabel5.TabIndex = 7;
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "Sou&nds";
             this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
@@ -405,7 +388,7 @@
             this.linkLabel4.Location = new System.Drawing.Point(54, 163);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(73, 15);
-            this.linkLabel4.TabIndex = 9;
+            this.linkLabel4.TabIndex = 6;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "&Screen Saver";
             this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
@@ -530,7 +513,6 @@
         private System.Windows.Forms.LinkLabel linkLabel9;
         private System.Windows.Forms.LinkLabel linkLabel8;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.LinkLabel linkLabel11;
         private System.Windows.Forms.LinkLabel linkLabel10;
     }
 }
