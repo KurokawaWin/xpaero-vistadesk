@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Threading;
 
-namespace desk
+namespace themecpl
 {
     static class Program
     {
